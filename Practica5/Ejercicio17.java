@@ -1,4 +1,4 @@
-package Ejercicios;
+
 import java.util.Scanner; // Importación de la clase Scanner.
 
 public class Ejercicio17 {

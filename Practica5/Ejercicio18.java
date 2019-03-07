@@ -1,4 +1,4 @@
-package Ejercicios;
+
 import java.util.*;
 public class Ejercicio18 {
 	/*18. Programa que lee una secuencia 5 números y escribe cual ha sido el mayor.*/
