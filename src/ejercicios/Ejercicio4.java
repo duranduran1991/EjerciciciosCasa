@@ -51,7 +51,7 @@ public class Ejercicio4 {
 
 		System.out.println("--------------------------------------------------");
 		System.out.println(" El total recaudado ha sido de: " + TotalRecaudado);
-		System.out.println("--------------------------------------------------");
+		System.out.println("---------------------------------------------------");
 		System.out.println(" El grupo que mas entradas ha comprado, con un total de: " + NumEntradas);
 
 	}
