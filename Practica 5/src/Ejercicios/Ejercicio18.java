@@ -10,6 +10,7 @@ public class Ejercicio18 {
 			numeros=sc.nextInt();
 			j++;
 			
+			
 		}
 
 	}
