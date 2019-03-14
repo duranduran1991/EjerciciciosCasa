@@ -1,10 +1,11 @@
 package Smartphone;
 
-import Movil.Smartphone.Movil;
-
-public class Smartphone extends Movil {
+public class Smartphone {
 
 	// atributos nuevos de la clases hijo (herencia)
+	private String marca;
+	private String modelo;
+	private String color;
 	private int PixelesCamara;
 	private int MemoriaInterna;
 	private int MemoriaExterna;
@@ -13,7 +14,11 @@ public class Smartphone extends Movil {
 	// Constructor con las viejas y nuevas caracteristicas
 	public Smartphone(String marca, String modelo, String color, String nombre, int PixelesCamara, int MemoriaDiscoDuro,
 			int MemoriaSD) {
-		super(marca, modelo, color, nombre);
+
+		this.marca = marca;
+		this.modelo = modelo;
+		this.color = color;
+		this.nombre = nombre;
 		this.PixelesCamara = PixelesCamara;
 		this.MemoriaInterna = MemoriaDiscoDuro;
 		this.MemoriaExterna = MemoriaSD;

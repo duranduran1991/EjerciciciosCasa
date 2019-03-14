@@ -20,7 +20,7 @@ public class MainSmartphone {
 
 		System.out.println("Que color es el movil");
 
-		smartphone.getColor();
+		smartphone.toString();
 		System.out.println("Cuantos pixeles tiene la camara");
 
 		smartphone.getPixelesCamara();
@@ -34,8 +34,6 @@ public class MainSmartphone {
 		// utilizo los metodos
 		System.out.println(" A quien desea llamar ");
 		String nombre = sc.nextLine();
-		smartphone.HacerLLamada(nombre);
-		smartphone.CortarLlamada(nombre);
 		smartphone.getNombre();
 		smartphone.getNombre();
 		System.out.println();
